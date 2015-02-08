@@ -2,31 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
 	<title>Etch-A-Sketch By: Vincent Bellittera</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
-	<header>
-		<h1>Javascript and jQuery Etch a Sketch Project</h1>
-		<p>The Odin Project</p>
-		<p>By: Vincent Bellittera</p>
-	</header>
-	<div id="container">
-		<nav>
-				<button type="button" id="button1">Fade</button>
-				<button type="button" id="button2">Trail</button>
-				<button type="button" id="button3">Clear</button>
-		</nav>
-		<section>
-			<div class="main">
-									
-			</div><!-- main -->
-		</section>
-		<footer>
-			<div class="ftr">
-					
-			</div><!-- ftr -->
-		</footer>
-	</div><!-- container -->	
+	<div id="wrapper">
+		<header>
+			<h1>Javascript and jQuery Etch a Sketch Project</h1>
+			<p>The Odin Project</p>
+			<p>By: Vincent Bellittera</p>
+      <div id="button">
+          <button name="ngrid" type="button">NEW GRID</button>
+      </div>
+		</header>
+		<div id="container"></div><!-- container -->	
+	</div>
 </body>
 </html>
